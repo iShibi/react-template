@@ -1,3 +1,8 @@
 {
-  "recommendations": ["csstools.postcss", "bradlc.vscode-tailwindcss", "gruntfuggly.todo-tree"]
+	"recommendations": [
+		"csstools.postcss",
+		"bradlc.vscode-tailwindcss",
+		"gruntfuggly.todo-tree",
+		"esbenp.prettier-vscode"
+	]
 }
