@@ -8,15 +8,18 @@
 		"url": "https://github.com/iShibi"
 	},
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite --port 6969",
+		"dev:open": "vite --port 6969 --open",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
 		"format:check": "prettier . --check",
 		"format:fix": "prettier . --write"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.8.0",
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6"
 	},
 	"devDependencies": {
 		"@types/react": "^17.0.33",
