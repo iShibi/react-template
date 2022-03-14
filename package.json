@@ -12,6 +12,8 @@
 		"dev:open": "vite --port 6969 --open",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
+		"lint:check": "eslint . --ext .js,.jsx,.ts,.tsx",
+		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
 		"format:check": "prettier . --check",
 		"format:fix": "prettier . --write"
 	},
@@ -24,8 +26,14 @@
 	"devDependencies": {
 		"@types/react": "^17.0.33",
 		"@types/react-dom": "^17.0.10",
+		"@typescript-eslint/eslint-plugin": "^5.14.0",
+		"@typescript-eslint/parser": "^5.14.0",
 		"@vitejs/plugin-react": "^1.0.7",
 		"autoprefixer": "^10.4.2",
+		"eslint": "^8.11.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-react-hooks": "^4.3.0",
 		"postcss": "^8.4.5",
 		"prettier": "^2.5.1",
 		"prettier-plugin-tailwindcss": "^0.1.3",
